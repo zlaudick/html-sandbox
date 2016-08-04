@@ -69,5 +69,19 @@
 				</div>
 			</div>
 		</main>
+
+		<!-- begin footer here -->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						footer column 1
+					</div>
+					<div class="col-md-6">
+						footer column 2
+					</div>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
