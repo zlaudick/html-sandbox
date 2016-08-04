@@ -14,6 +14,12 @@ footer {
 	color: white;
 }
 
+.col-md-4 {
+	background-color: pink;
+	border: black solid 2px;
+	height: 20rem;
+}
+
 /***
 * Flexbox Sticky Footer
 * http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
