@@ -35,40 +35,42 @@
 
 		<title>Bootstrap 3.3.6 Basic Template</title>
 	</head>
-	<body>
-		<!-- begin header -->
-		<header>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h1>My Bootstrap Page</h1>
+	<body class="sfooter">
+		<div class="sfooter-content">
+			<!-- begin header -->
+			<header>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h1>My Bootstrap Page</h1>
+						</div>
 					</div>
 				</div>
-			</div>
-		</header>
-		<main>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-3">
-						side panel
+			</header>
+			<main>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3">
+							side panel
+						</div>
+						<div class="col-md-9">
+							content panel
+						</div>
 					</div>
-					<div class="col-md-9">
-						content panel
+					<div class="row">
+						<div class="col-md-4">
+							column 1
+						</div>
+						<div class="col-md-4">
+							column 2
+						</div>
+						<div class="col-md-4">
+							column 3
+						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-4">
-						column 1
-					</div>
-					<div class="col-md-4">
-						column 2
-					</div>
-					<div class="col-md-4">
-						column 3
-					</div>
-				</div>
-			</div>
-		</main>
+			</main>
+		</div>
 
 		<!-- begin footer here -->
 		<footer>
