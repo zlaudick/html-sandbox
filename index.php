@@ -1,60 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8"/>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!-- adding custom CSS -->
-		<link href="css/style.css" rel="stylesheet" type="text/css"/>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-		<!-- adding custom JavaScript -->
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		<!-- Font Awesome -->
+		<link type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet" />
+
+		<!-- Custom CSS Goes HERE -->
+		<link rel="stylesheet" href="css/style.css" type="text/css"/>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+		<!-- jQuery - required for Bootstrap Components -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<!-- ADD YOUR CUSTOM JS FILES HERE -->
 		<script src="js/custom.js" type="text/javascript"></script>
 
-		<title>My Web Page</title>
+		<title>Bootstrap 3.3.6 Basic Template</title>
 	</head>
 	<body>
+		<!-- begin header -->
 		<header>
-			<h1>Hi World!</h1>
-		</header>
-
-		<!-- Start Main Content Here -->
-		<main>
-			<p id="first paragraph">Barkadeer <strong>Chain Shot</strong> chase <em>matey</em> parley aye reef belaying pin cackle fruit swab. Buccaneer smartly dance the hempen jig jack tender haul wind pinnace chandler hempen halter keel. Black jack Pirate Round mutiny matey handsomely Blimey ye crimp wench ho. Topsail fluke hail-shot dance the hempen jig driver schooner parrel belaying pin Plate Fleet sheet. Piracy pirate yo-ho-ho Blimey Pirate Round starboard overhaul case shot measured fer yer chains walk the plank.</p>
-			<h2 class="pretty-title">About Me</h2>
-			<p>Sheet nipper chase guns skysail grog blossom Sea Legs mizzen spirits sutler blow the man down. Yard code of conduct quarter bounty pressgang fore topmast line Barbary Coast parley. Deadlights belaying pin marooned Chain Shot take a caulk bring a spring upon her cable hempen halter Plate Fleet lookout Jack Tar.</p>
-
-			<!-- Unordered list -->
-			<ul>
-				<li>Item 1</li>
-				<li>Item 2</li>
-				<li>Item 3</li>
-			</ul>
-			<!-- Ordered list -->
-			<ol>
-				<li>Item 1</li>
-				<li>Item 2</li>
-				<li>Item 3</li>
-			</ol>
-			<div>
-				<a href="https://google.com" target="_blank">Go to Google.com</a>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>My Bootstrap Page</h1>
+					</div>
+				</div>
 			</div>
-			<img src="images/psyduck.jpeg" alt="psyduck" />
-
-			<!-- Table -->
-			<table>
-				<tr>
-					<th>table cell 1</th>
-					<th>table cell 2</th>
-				</tr>
-				<tr>
-					<td>table cell 3</td>
-					<td>table cell 4</td>
-				</tr>
-			</table>
+		</header>
+		<main>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						side panel
+					</div>
+					<div class="col-md-9">
+						content panel
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						column 1
+					</div>
+					<div class="col-md-4">
+						column 2
+					</div>
+					<div class="col-md-4">
+						column 3
+					</div>
+				</div>
+			</div>
 		</main>
-
-
-		<footer>
-			&copy; 2016
-		</footer>
 	</body>
 </html>
